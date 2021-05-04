@@ -1,0 +1,43 @@
+.cyanlabs-expand-button {
+  position: relative;
+  border: 2.5px solid lightgray;
+  cursor: pointer;
+  width: 20px;
+  height: 14px;
+  margin: auto 2px;
+  margin-right: 10px;
+}
+
+.cyanlabs-expand-button:hover {
+    filter: drop-shadow( 0 0 1em #fff);
+}
+
+.cyanlabs-body {
+	overflow: hidden !important;	
+}
+
+.cyanlabs-leftnav {
+	display: none !important;
+}
+
+.cyanlabs-page-wrapper { 
+	padding-left: 0px !important;
+}
+
+.cyanlabs-vjs, .cyanlabs-vjs video {
+	height: 100vh !important;
+    width: 100vw !important;
+	max-width: unset !important;	
+}
+
+.cyanlabs-player-container {
+	max-width: unset !important;
+}
+
+.fullsizevideo {
+	display:none;
+}
+
+.fullsizevideo, .windowedvideo {
+	margin-top: 2px;
+}

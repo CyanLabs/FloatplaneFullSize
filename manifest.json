@@ -1,0 +1,18 @@
+{
+  "name": "Floatplane Fullsize",
+  "version": "1.2.3",
+  "description": "Watch videos on Floatplane.com fullsize without being in fullscreen. Ideal for 21:9 and 32:9 monitors.",
+  "author": "CyanLabs",
+  "homepage_url": "https://cyanlabs.net",
+  "manifest_version": 2,
+  "content_scripts": [ {
+    "js": [ "jquery-2.0.2.min.js", "background.js" ],
+    "css": ["customStyles.css"],
+    "matches": [ "*://www.floatplane.com/*"]
+  }],
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  }
+}
